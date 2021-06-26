@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>CONTACT Us</title>
+<link rel="stylesheet" href="Responsive/responsive.css">
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div id="container">
+<div id="blur"></div>
+<section>
+<div class="back"></div>
+<div class="back"></div>
+<div class="back"></div>
+<div class="back"></div>
+</section>
+
+                    <!-- login form start -->
+   <div id="form_container">
+       <form action="/login" method="POST">
+               <div class="form_header">
+                  <img src="images/face.png" alt="">
+               </div>
+               <div class="form_content">
+               <div class="form_div" style="margin-top:0;">
+                  <label for="name">name :</label>
+                  <input type="text" name="name" required>
+               </div>
+              <div class="form_div">
+                  <label for="gender">gender :</label>
+                  <div class="gender_div">
+                   <label for="gender">male</label>
+                   <input type="radio" name="gender" id="radi">
+                   <label for="gender">female</label>
+                   <input type="radio" name="gender" id="radi"> 
+                  </div>
+              </div>
+              <div class="form_div">
+                  <label for="email">email :</label>
+                  <input type="email"name="email">
+              </div>
+              <div class="form_div">
+                  <label for="number">number :</label>
+                  <input type="tel" name="number">
+              </div>
+              <div class="form_div">
+                   <label for="password">password :</label>
+                   <input type="password" name="password">
+              </div>
+              <div class="form_div">
+                   <label for="cdonfirm">confirm-p</label>
+                   <input type="password" name="cdonfirm">
+              </div>
+            <div class="btn">
+              <div class="form_div-btn">
+                   <input type="reset" name="reset"
+                   class="form-btn">
+              </div>
+              <div class="form_div-btn">
+                   <input type="submit" name="submit" class="form-btn">
+              </div>
+            </div>
+          </div>
+          <div class="form_footer">
+                 <a href="login.html">Already have an Account ?</a>
+          </div>
+      </form>
+  </div>
+
+</div>
+</body>
+</html>
